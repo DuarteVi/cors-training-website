@@ -17,8 +17,10 @@ export default function Home() {
     <main>
 
       <h1 style={{ color: 'green', textAlign: 'center' }}>Welcome to my CORS training site!</h1>
-
+      
       <p>Here, you can easily test different CORS configurations. Some requests are made to the same origin, while others are sent to a remote API.</p>
+      <p>You can find my GitHub repository by clicking <b><a href="https://github.com/DuarteVi/cors-training-website" target="_blank">here</a></b></p>
+      <br/>
       
       <h3>Inspecting Your Developer Tools</h3>
       <p>To inspect your developer tools, right-click and select &quot;Inspect&quot;. Next, go to the &quot;Network&quot; tab and make sure all requests are displayed.</p>

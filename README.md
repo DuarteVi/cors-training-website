@@ -17,10 +17,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Note
 
-Switch comments on declarations of `ORIGIN` and `BASE_URL`in `./app/pages/utils.tsx`.
+Switch comments on declarations of `ORIGIN` and `BASE_URL` in `./app/pages/utils.tsx`.
 
 ## Web site
-[https://cors-training-website.vercel.app](https://cors-training-website.vercel.app) 
+[https://cors-training-website.vercel.app](https://cors-training-website.vercel.app)
+
+## My API GitHub repository
+[https://github.com/DuarteVi/cors-training-api](https://github.com/DuarteVi/cors-training-api)
 
 ## Author
 [Vincent Duarte](https://github.com/DuarteVi)
