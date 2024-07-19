@@ -10,6 +10,7 @@ import CallRemoteWrongPort from '@/app/pages/CallRemoteWrongPort';
 import CallRemoteWrongProtocol from '@/app/pages/CallRemoteWrongProtocol';
 import CallSameOrigin from '@/app/pages/CallSameOrigin';
 import { URL } from '@/app/pages/utils';
+import Image from 'next/image';
 
 export default function Home() {
   
@@ -22,8 +23,22 @@ export default function Home() {
       <p>You can find my GitHub repository by clicking <b><a href="https://github.com/DuarteVi/cors-training-website" target="_blank">here</a></b></p>
       <br/>
       
+      <h2 style={{ color: 'green'}}>Tutorial</h2>
       <h3>Inspecting Your Developer Tools</h3>
       <p>To inspect your developer tools, right-click and select &quot;Inspect&quot;. Next, go to the &quot;Network&quot; tab and make sure all requests are displayed.</p>
+      <Image
+        src="/images/tutoCors.png"
+        width={1280}
+        height={800}
+        alt=""
+      />
+      <h4>Then, let&apos;s investigate</h4>
+      <Image
+        src="/images/demoCors.png"
+        width={1280}
+        height={800}
+        alt="Main areas of interest"
+      />
 
       <h2 style={{ color: 'green'}}>Requests on the Same Origin</h2>
       <CallSameOrigin url={URL.SAME_ORIGIN}></CallSameOrigin>
